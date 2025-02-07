@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9e3e3;
+    font-family: "Comic Sans MS" , sans-serif;
+    font-style: oblique;
+    background-image: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTkxYm0xMXptN29yaGhlZ2I3bGZ5ZmgybWUxNWd4OHFnaTZvZ3NuNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o6gbeVN2ZPbG2COKA/giphy.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.container {
+    text-align: center;
+}
+
+.header_text {
+    font-size: 3em;
+    color: #d32f2f;
+}
+
+.gif_container img {
+    width: 100%; 
+    max-width: 500px; 
+    height: auto; 
+
+}
