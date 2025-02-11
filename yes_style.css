@@ -34,14 +34,6 @@ body {
     color: #d32f2f;
 }
 
-.img_container {
-    width: 100%; /* Membuat container fleksibel */
-    max-width: 500px; /* Batas maksimal container */
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .img_container img {
     width: 100%; /* Gambar mengikuti ukuran container */
