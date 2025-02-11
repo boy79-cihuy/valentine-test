@@ -35,6 +35,17 @@ body {
 }
 
 .img_container {
-    width: 100%; 
-    max-width: 500px; 
-    height: auto; 
+    width: 100%; /* Membuat container fleksibel */
+    max-width: 500px; /* Batas maksimal container */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_container img {
+    width: 100%; /* Gambar mengikuti ukuran container */
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px; /* Memberikan efek melengkung */
+}
